@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title> 
+</head>
+
+<body >
+    <h1 align="center">Convert Temperature </h1>
+    <hr>
+    <main >
+        <br>
+        <div>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label>Enter degree in Kelvin: </label>
+                        <input id="input" type="number" placeholder="degreeK" oninput="calc(this.value)" onchange="calc(this.value)"><br><br>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Degree in Celcius: <span id="outputCelcius"></span></label><br>
+                    </td>
+                </tr>
+            </table>
+            <p align="center"><button id="TotalCalc" onclick="calc()" >Calculate</button></p>
+    </main>
+    <script src="calc.js"></script>
+    </div>
+</body>
+</html>
+
