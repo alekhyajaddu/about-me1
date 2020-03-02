@@ -1,0 +1,8 @@
+19 - Temperature Converter
+Given temp in K, display temp in C
+input 1 type - number
+input 1 - degK
+
+function: degK - 273.15
+
+ 
